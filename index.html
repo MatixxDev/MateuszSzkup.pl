@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MateuszSzkup.pl</title>
+
+    <script defer src="assets/js/main.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+
+    <link href="https://fonts.cdnfonts.com/css/rio2016" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ritalin" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="fullsize">
+        <div class="cloudscode" id="cloudscode_full" style="display: none;">
+            <i class="fas fa-x" id="close_cloudscode_full" onclick="closeCloudsFull()"></i>
+            <img src="assets/img/cloudscode-screenshot.png" width="1200px" alt="">
+        </div>
+
+        <div class="rng" id="rng_full" style="display: none;">
+            <i class="fas fa-x" id="close_rng_full" onclick="closeRngFull()"></i>
+            <img src="assets/img/rngcreators-screenshot.png" width="1200px" alt="">
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="">
+        </div>
+
+        <div class="navigation-elem">
+            <a href="#aboutme"><p><span>1.</span> About Me</p></a>
+
+            <a href="#mywork"><p><span>2.</span> My Work</p></a>
+
+            <a href="https://discord.gg/z9dYkUbcga"><p><span>3.</span> Contact</p></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="subtitle">
+                <p>Hi, my name is</p>
+            </div>
+    
+            <div class="title">
+                <div class="header">
+                    <h1>Mateusz Szkup</h1>
+                </div>
+                <p>Front-end and Skript developer</p>
+            </div>
+        </div>
+        <div class="illustration">
+            <img src="assets/img/illustration.png" alt="" width="600px">
+        </div>
+    </main>
+
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="title">
+                <h2><span>About</span> Me</h2>
+            </div>
+
+            <div class="description">
+                <p>I am <span>15 years old</span>, I am a Front-end and Skript programmer, I have been programming for 3 years and <span>I gained experience on my own.</span></p>
+                <p>I made some works, so I upload them in the <span>"My Work"</span> section</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mywork" id="mywork">
+        <div class="container">
+            <div class="title">
+                <h2>My <span>Work</span></h2>
+            </div>
+
+            <div class="description">
+                <p>My <span>examples</span> of the work I have done so far.</p>
+            </div>
+            
+            <div class="work-list">
+                <div class="rng">
+                    <div class="text">
+                        <h3>Rng Creators</h3>
+                        <p>I created a website for RNG creators using JavaScript, HTML and CSS. This page counts down until the game starts and you can contact the creators via the form.</p>
+                    
+                        <p class="fullsize rng-full" onclick="openRngFull()">Click to zoom image</p>
+                    </div>
+
+                    <div class="image">
+                        <img src="assets/img/rngcreators-screenshot.png" width="550px" alt="">
+                    </div>
+
+                </div>
+
+                <div class="cloudscode">
+                    <div class="text">
+                        <h3>CloudsCode</h3>
+                        <p>I created a website for RNG creators using JavaScript, HTML and CSS. This page counts down until the game starts and you can contact the creators via the form.</p>
+                    
+                        <p class="fullsize cloudscode-full" onclick="openCloudsFull()">Click to zoom image</p>
+                    </div>
+
+                    <div class="image">
+                        <img src="assets/img/cloudscode-screenshot.png" width="550px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

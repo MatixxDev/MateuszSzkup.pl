@@ -1,0 +1,46 @@
+@media screen and (max-width: 1440px) {
+    main .title .header{
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1137px){
+    main .illustration {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section.aboutme {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    section.mywork .container .work-list .rng {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    section.mywork .container .work-list .cloudscode {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+}
